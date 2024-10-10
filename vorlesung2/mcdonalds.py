@@ -1,10 +1,11 @@
 # Initale Variablen
 steuersatz = ""
-# Eingabe
 
+# Versuche eine Float-Eingabe
 try:
     preis = float(input("Preis: "))
 except:
+    # Die Umwandlung in einen Float hat nicht geklappt
     print ("Das war keine Zahl")
     exit()
 
